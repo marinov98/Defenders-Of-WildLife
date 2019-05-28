@@ -91,11 +91,23 @@ li {
 /* HEADER */
 
 header {
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 /* DEFENDER-TEXT-BOX */
 
 .defender-text-box {
   margin: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.defender-text-box .buttons {
+}
+
+.defender-text-box h1 {
+  background-color: white;
+  opacity: 0.5;
 }
