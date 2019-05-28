@@ -4,10 +4,98 @@
   box-sizing: border-box;
 }
 
-#home {
-  background: #66ccff;
+body {
+  width: 60%;
+  margin: auto;
+  background-image: url("../img/naturebg.jpg");
 }
 
-.app {
-  background-color: blue;
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+li {
+  list-style-type: none;
+}
+
+#main {
+  background-color: #fff;
+  padding: 50px;
+}
+
+.section {
+  margin: 40px 0 40px 0;
+}
+
+/* MAIN NAV */
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin: 0 20px 0 20px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 6px 0;
+  color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+}
+
+.main-nav li a:active,
+.main-nav li a:hover {
+  color: lightcoral;
+}
+
+/* Sticky nav */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 2px 2px #efefef;
+  z-index: 9999;
+}
+
+.sticky .logo-and-links {
+  width: 60%;
+  margin: auto;
+  padding: 0 40px 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sticky .main-nav {
+  margin-top: 18px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  padding: 8px 0;
+  color: #555;
+}
+
+/* HEADER */
+
+header {
+  margin-bottom: 100px;
+}
+
+/* DEFENDER-TEXT-BOX */
+
+.defender-text-box {
+  margin: 50px;
 }
