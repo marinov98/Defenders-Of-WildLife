@@ -87,12 +87,6 @@ li {
   margin-top: 18px;
 }
 
-.sticky .main-nav li a:link,
-.sticky .main-nav li a:visited {
-  padding: 8px 0;
-  color: red;
-}
-
 /* DEFENDER-TEXT-BOX */
 
 .defender-text-box {
