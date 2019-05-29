@@ -175,7 +175,7 @@ input[type="submit"] {
 
 /* Form */
 .contact-form {
-  width: 97.5%;
+  width: 97%;
   margin: 0 auto;
   background: #fff;
 }
@@ -205,8 +205,7 @@ input[type="checkbox"] {
 
 #find-us {
   height: 10%;
-  width: 42.7%;
-  margin-right: 70px;
+  width: 50%;
 }
 
 *:focus {
