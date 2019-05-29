@@ -113,6 +113,11 @@ li {
   opacity: 0.5;
 }
 
+.defender-text-box .buttons .btn a {
+  text-decoration: none;
+  color: red;
+}
+
 /* Buttons */
 
 .btn:link,
