@@ -29,7 +29,7 @@ li {
   color: red;
 }
 
-.initial-title a:active
+.initial-title a:active,
 .initial-title a:hover {
   color: lightcoral;
 }
@@ -97,8 +97,6 @@ li {
   margin-top: 18px;
 }
 
-
-
 /* DEFENDER-TEXT-BOX */
 
 .defender-text-box {
@@ -131,11 +129,11 @@ input[type="submit"] {
 
 .btn-full:link,
 .btn-full:visited,
-input[type=submit] {
+input[type="submit"] {
   background-color: white;
-  border          : 1px solid lightcoral;
-  color           : black;
-  margin-right    : 15px;
+  border: 1px solid lightcoral;
+  color: black;
+  margin-right: 15px;
 }
 
 .btn-ghost:link,
@@ -146,27 +144,27 @@ input[type=submit] {
 
 .btn:active,
 .btn:hover,
-input[type=submit]:active,
-input[type=submit]:hover {
+input[type="submit"]:active,
+input[type="submit"]:hover {
   background-color: lightcoral;
 }
 
 .btn-full:active,
 .btn-full:hover,
-input[type=submit] {
+input[type="submit"] {
   border: 1px solid lightcoral;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
   border: 1px solid lightcoral;
-  color : white;
+  color: white;
 }
 
 .btn-ghost-signup:link,
 .btn-ghost-signup:visited {
   border: 1px solid lightcoral;
-  color : white;
+  color: white;
 }
 
 .btn-ghost-signup:active,
@@ -233,9 +231,8 @@ footer {
   float: left;
 }
 
-.footer-nav a:link
-.footer-nav a:visited {
-  color:red
+.footer-nav a:link .footer-nav a:visited {
+  color: red;
 }
 
 .footer-nav a:hover {
