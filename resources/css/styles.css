@@ -38,6 +38,11 @@ li {
   margin: 40px 0 40px 0;
 }
 
+.anchor {
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
 /* MAIN NAV */
 
 .main-nav {
@@ -94,16 +99,11 @@ li {
 
 
 
-/* HEADER */
-
-header {
-  margin-bottom: 150px;
-}
-
 /* DEFENDER-TEXT-BOX */
 
 .defender-text-box {
   margin: 50px;
+  margin-top: 150px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -119,29 +119,37 @@ header {
 
 .btn:link,
 .btn:visited,
-input[type=submit] {
-  display           : inline-block;
-  padding           : 10px 30px;
-  font-weight       : 300;
-  text-decoration   : none;
-  border-radius     : 200px;
+input[type="submit"] {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
   -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
-  transition        : background-color 0.2s, border 0.2s, color 0.2s;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 .btn-full:link,
 .btn-full:visited,
+<<<<<<< HEAD
 input[type=submit] {
   background-color: white;
   border          : 1px solid lightcoral;
   color           : black;
   margin-right    : 15px;
+=======
+input[type="submit"] {
+  background-color: #2ecc71;
+  border: 1px solid #2ecc71;
+  color: #fff;
+  margin-right: 15px;
+>>>>>>> cb0cd1467da22a7be86353aa6cc2da1a91fab216
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
   border: 10px solid #2ecc71;
-  color : #2ecc71;
+  color: #2ecc71;
 }
 
 .btn:active,
@@ -172,27 +180,27 @@ input[type=submit] {
 .btn-ghost-signup:active,
 .btn-ghost-signup:hover {
   border: 1px solid #27ae60;
-  color : #fff;
+  color: #fff;
 }
 
 /* Form */
 .contact-form {
-  width : 97%;
+  width: 97%;
   margin: 0 auto;
   background: #fff;
 }
 
-input[type=email],
-input[type=text],
+input[type="email"],
+input[type="text"],
 select,
 textarea {
-  width        : 90%;
-  padding      : 7px;
+  width: 90%;
+  padding: 7px;
   border-radius: 3px;
-  border       : 1px solid #ccc;
+  border: 1px solid #ccc;
 }
 
-input[type=submit] {
+input[type="submit"] {
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -201,7 +209,7 @@ textarea {
   height: 100px;
 }
 
-input[type=checkbox] {
+input[type="checkbox"] {
   margin: 10px 5px 10px 0;
 }
 
@@ -224,13 +232,13 @@ label {
 
 footer {
   background-color: #333;
-  padding         : 50px;
-  font-size       : 80%;
+  padding: 50px;
+  font-size: 80%;
 }
 
 .footer-nav {
   list-style: none;
-  float     : left;
+  float: left;
 }
 
 .footer-nav a:link
@@ -244,12 +252,12 @@ footer {
 
 .social-links {
   list-style: none;
-  float     : right;
+  float: right;
 }
 
 .footer-nav li,
 .social-links li {
-  display     : inline-block;
+  display: inline-block;
   margin-right: 20px;
 }
 
@@ -262,11 +270,11 @@ footer {
 .footer-nav li:visited,
 .social-links li:link,
 .social-links li:visited {
-  text-decoration   : none;
-  border            : 0;
-  color             : #888;
+  text-decoration: none;
+  border: 0;
+  color: #888;
   -webkit-transition: color 0.2s;
-  transition        : color 0.2s;
+  transition: color 0.2s;
 }
 
 .footer-nav li:active,
@@ -284,7 +292,7 @@ footer {
 .ion-social-instagram,
 .ion-social-twitter {
   -webkit-transition: color 0.2s;
-  transition        : color 0.2s;
+  transition: color 0.2s;
 }
 
 .ion-social-facebook:hover {
@@ -304,6 +312,6 @@ footer {
 }
 
 footer p {
-  color     :white;
+  color: white;
   text-align: center;
 }
