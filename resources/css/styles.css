@@ -143,8 +143,8 @@ input[type="submit"] {
 
 .btn-ghost:link,
 .btn-ghost:visited {
-  border: 10px solid #2ecc71;
-  color: #2ecc71;
+  border: 10px solid lightcoral;
+  color: red;
 }
 
 .btn:active,
@@ -209,6 +209,7 @@ textarea {
 input[type="submit"] {
   margin-top: 10px;
   margin-bottom: 20px;
+  color: red;
 }
 
 textarea {
