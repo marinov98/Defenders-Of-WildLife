@@ -131,19 +131,11 @@ input[type="submit"] {
 
 .btn-full:link,
 .btn-full:visited,
-<<<<<<< HEAD
 input[type=submit] {
   background-color: white;
   border          : 1px solid lightcoral;
   color           : black;
   margin-right    : 15px;
-=======
-input[type="submit"] {
-  background-color: #2ecc71;
-  border: 1px solid #2ecc71;
-  color: #fff;
-  margin-right: 15px;
->>>>>>> cb0cd1467da22a7be86353aa6cc2da1a91fab216
 }
 
 .btn-ghost:link,
