@@ -174,8 +174,19 @@ input[type="submit"] {
 }
 
 /* Form */
+
+.section-form {
+  width: 100%;
+  margin: auto;
+}
+
+.section-form .row {
+  width: 100%;
+  margin: auto;
+}
+
 .contact-form {
-  width: 97%;
+  width: 100%;
   margin: 0 auto;
   background: #fff;
 }
@@ -205,7 +216,8 @@ input[type="checkbox"] {
 
 #find-us {
   height: 10%;
-  width: 50%;
+  width: 42.55%;
+  margin-right: 4.35em;
 }
 
 *:focus {
